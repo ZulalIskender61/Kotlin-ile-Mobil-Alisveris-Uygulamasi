@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activityler.KullaniciAdresleri">
+    <TextView
+        android:id="@+id/baslik"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:text="KİTAP DÜNYASI"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAdreslerim"
+        android:layout_width="match_parent"
+        android:layout_height="700dp" />
+
+    <Button
+        android:id="@+id/btnYeniAdresEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adres Ekle"
+        android:backgroundTint="@color/black"
+        android:layout_marginLeft="270dp"/>
+</LinearLayout>

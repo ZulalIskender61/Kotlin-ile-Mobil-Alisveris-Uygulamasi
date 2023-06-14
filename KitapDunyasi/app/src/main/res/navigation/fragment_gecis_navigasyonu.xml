@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_gecis_navigasyonu"
+    app:startDestination="@id/anaSayfa3">
+    <fragment
+        android:id="@+id/anaSayfa3"
+        android:name="com.example.kitapdunyasi.fragmentler.AnaSayfa"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" >
+        <action
+            android:id="@+id/action_anaSayfa3_to_kategori3"
+            app:destination="@id/kategori3" />
+        <action
+            android:id="@+id/action_anaSayfa3_self"
+            app:destination="@id/anaSayfa3" />
+        <action
+            android:id="@+id/action_anaSayfa3_to_sepet2"
+            app:destination="@id/sepet2" />
+        <action
+            android:id="@+id/action_anaSayfa3_to_profil2"
+            app:destination="@id/profil2" />
+        <action
+            android:id="@+id/action_anaSayfa3_to_YProfil"
+            app:destination="@id/YProfil" />
+        <action
+            android:id="@+id/action_anaSayfa3_to_YSepet"
+            app:destination="@id/YSepet" />
+    </fragment>
+    <fragment
+        android:id="@+id/kategori3"
+        android:name="com.example.kitapdunyasi.fragmentler.Kategori"
+        android:label="fragment_kategori"
+        tools:layout="@layout/fragment_kategori" >
+        <action
+            android:id="@+id/action_kategori3_to_anaSayfa3"
+            app:destination="@id/anaSayfa3" />
+        <action
+            android:id="@+id/action_kategori3_self"
+            app:destination="@id/kategori3" />
+        <action
+            android:id="@+id/action_kategori3_to_sepet2"
+            app:destination="@id/sepet2" />
+        <action
+            android:id="@+id/action_kategori3_to_profil2"
+            app:destination="@id/profil2" />
+    </fragment>
+    <fragment
+        android:id="@+id/profil2"
+        android:name="com.example.kitapdunyasi.fragmentler.Profil"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" >
+        <action
+            android:id="@+id/action_profil2_self"
+            app:destination="@id/profil2" />
+        <action
+            android:id="@+id/action_profil2_to_anaSayfa3"
+            app:destination="@id/anaSayfa3" />
+        <action
+            android:id="@+id/action_profil2_to_kategori3"
+            app:destination="@id/kategori3" />
+        <action
+            android:id="@+id/action_profil2_to_sepet2"
+            app:destination="@id/sepet2" />
+        <action
+            android:id="@+id/action_profil2_to_girisYap3"
+            app:destination="@id/girisYap3" />
+        <action
+            android:id="@+id/action_profil2_to_kayitOl"
+            app:destination="@id/kayitOl" />
+    </fragment>
+    <fragment
+        android:id="@+id/sepet2"
+        android:name="com.example.kitapdunyasi.fragmentler.Sepet"
+        android:label="fragment_sepet"
+        tools:layout="@layout/fragment_sepet" >
+        <action
+            android:id="@+id/action_sepet2_self"
+            app:destination="@id/sepet2" />
+        <action
+            android:id="@+id/action_sepet2_to_kategori3"
+            app:destination="@id/kategori3" />
+        <action
+            android:id="@+id/action_sepet2_to_anaSayfa3"
+            app:destination="@id/anaSayfa3" />
+        <action
+            android:id="@+id/action_sepet2_to_profil2"
+            app:destination="@id/profil2" />
+    </fragment>
+    <activity
+        android:id="@+id/girisYap3"
+        android:name="com.example.kitapdunyasi.activityler.GirisYap"
+        android:label="activity_giris_yap"
+        tools:layout="@layout/activity_giris_yap" />
+    <activity
+        android:id="@+id/kayitOl"
+        android:name="com.example.kitapdunyasi.activityler.KayitOl"
+        android:label="activity_kayit_ol"
+        tools:layout="@layout/activity_kayit_ol" />
+    <activity
+        android:id="@+id/yoneticiKargoyaVer"
+        android:name="com.example.kitapdunyasi.activityler.YoneticiKargoyaVer"
+        android:label="activity_yonetici_kargoya_ver"
+        tools:layout="@layout/activity_yonetici_kargoya_ver" />
+    <fragment
+        android:id="@+id/YSepet"
+        android:name="com.example.kitapdunyasi.fragmentler.YSepet"
+        android:label="fragment_y_sepet"
+        tools:layout="@layout/fragment_y_sepet" >
+        <action
+            android:id="@+id/action_YSepet_to_yoneticiKargoyaVer"
+            app:destination="@id/yoneticiKargoyaVer" />
+        <action
+            android:id="@+id/action_YSepet_to_YProfil"
+            app:destination="@id/YProfil" />
+        <action
+            android:id="@+id/action_YSepet_to_anaSayfa3"
+            app:destination="@id/anaSayfa3" />
+    </fragment>
+    <fragment
+        android:id="@+id/YProfil"
+        android:name="com.example.kitapdunyasi.fragmentler.YProfil"
+        android:label="YProfil" >
+        <action
+            android:id="@+id/action_YProfil_to_YSepet"
+            app:destination="@id/YSepet" />
+        <action
+            android:id="@+id/action_YProfil_to_anaSayfa3"
+            app:destination="@id/anaSayfa3" />
+    </fragment>
+</navigation>

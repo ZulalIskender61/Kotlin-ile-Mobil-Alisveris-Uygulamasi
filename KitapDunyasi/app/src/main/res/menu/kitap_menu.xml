@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Türk Edebiyatı"
+        android:id="@+id/TurkEdebiyati"
+        android:icon="@drawable/ic_baseline_book_24"
+        />
+    <item
+        android:title="Araştırma Tarih"
+        android:id="@+id/ArastirmaTarih"
+        android:icon="@drawable/ic_baseline_book_24" />
+    <item
+        android:title="Bilim"
+        android:id="@+id/Bilim"
+        android:icon="@drawable/ic_baseline_book_24" />
+    <item
+        android:title="Edebiyat"
+        android:id="@+id/Edebiyat"
+        android:icon="@drawable/ic_baseline_book_24" />
+    <item
+        android:title="Felsefe"
+        android:id="@+id/Felsefe"
+        android:icon="@drawable/ic_baseline_book_24" />
+
+    <item
+        android:title="Şiir Kitapları"
+        android:id="@+id/SiirKitaplari"
+        android:icon="@drawable/ic_baseline_book_24"
+        />
+
+
+</menu>

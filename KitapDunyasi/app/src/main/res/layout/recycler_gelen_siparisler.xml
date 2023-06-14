@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/gs_kullaniciEmaili"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Kullanıcı Email'i" />
+
+    <TextView
+        android:id="@+id/recycler_gs_tarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarih">
+    </TextView>
+    <TextView
+        android:id="@+id/recycler_gs_toplamFiyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam fiyat">
+    </TextView>
+
+    <Button
+        android:id="@+id/kargoyaVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kargoya ver"
+        android:backgroundTint="@color/black"/>
+
+
+
+</LinearLayout>

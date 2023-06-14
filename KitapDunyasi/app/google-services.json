@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "320180862167",
+    "project_id": "kitapdunyasi-fe163",
+    "storage_bucket": "kitapdunyasi-fe163.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320180862167:android:038b66a9e0d87f1aca0492",
+        "android_client_info": {
+          "package_name": "com.example.kitapdunyasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320180862167-7gmlac69mb1tlhbo0dtdiobihuiadv3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEQkv7TqcKdvMZhYMWaqgLohAtVkHJLpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320180862167-7gmlac69mb1tlhbo0dtdiobihuiadv3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

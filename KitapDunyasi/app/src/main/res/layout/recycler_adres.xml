@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/recycler_adres_basligi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/kullaniciProfil"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:text="Kullanici adres  başlığı" />
+
+    <TextView
+        android:id="@+id/recycler_adres_adres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanici Adresi"/>
+    <TextView
+        android:id="@+id/recycler_adres_sehir_ilce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanici Sehir/İlce bilgisi"/>
+    <TextView
+        android:id="@+id/recycler_adres_posta_kodu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanici posta kodu"/>
+    <TextView
+        android:id="@+id/recycler_adres_telefon_numarasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanici Telefon Numarasi"/>
+
+    <Button
+        android:id="@+id/recycler_btn_adres_düzenle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:text="Adresi Düzenle"
+        android:layout_marginLeft="200dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+        <item name="android:textSize">24sp</item>
+
+    </style>
+
+    <style name="forceDarkAllowed" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:forceDarkAllowed">true</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="dairesel">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

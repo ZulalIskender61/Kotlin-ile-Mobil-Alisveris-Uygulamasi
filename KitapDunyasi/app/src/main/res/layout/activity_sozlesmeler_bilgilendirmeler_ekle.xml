@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityler.SozlesmelerBilgilendirmelerEkle">
+
+    <Spinner
+        android:id="@+id/SvB_Spinner"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextVeriler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditTextVeriler"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="Verileri Buraya Yazınız"
+        app:layout_constraintBottom_toTopOf="@+id/btnVerileriEkle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SvB_Spinner" />
+
+    <Button
+        android:id="@+id/btnVerileriEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:backgroundTint="@color/black"
+        android:text="veriyi ekle"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextVeriler" />
+</androidx.constraintlayout.widget.ConstraintLayout>
